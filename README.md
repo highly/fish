@@ -1,0 +1,2 @@
+# fish
+go program watcher
