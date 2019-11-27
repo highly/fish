@@ -16,7 +16,14 @@ import (
 
 const BinFIle = "localTmpMain"
 
-var hiddenLog = []string{"grpc/pickfirst.go", "resolver_conn_wrapper", "grpc/clientconn.go", "gateway_server.go", "tracing/config.go"}
+var hiddenLog = []string{
+	"grpc/pickfirst.go",
+	"resolver_conn_wrapper",
+	"grpc/clientconn.go",
+	"gateway_server.go",
+	"tracing/config.go",
+	"HandleSubConnStateChange",
+}
 
 var ctx context.Context
 var cancel context.CancelFunc
