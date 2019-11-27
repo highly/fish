@@ -23,6 +23,9 @@ var hiddenLog = []string{
 	"gateway_server.go",
 	"tracing/config.go",
 	"HandleSubConnStateChange",
+	"parsed scheme",
+	"pick_first",
+	"not registered,",
 }
 
 var ctx context.Context
